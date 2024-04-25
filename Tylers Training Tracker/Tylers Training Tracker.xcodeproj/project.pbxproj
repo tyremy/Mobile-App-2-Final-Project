@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74052A1E2BC2CD0F00052C74 /* Tylers_Training_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A1D2BC2CD0F00052C74 /* Tylers_Training_TrackerApp.swift */; };
+		74052A202BC2CD0F00052C74 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A1F2BC2CD0F00052C74 /* ExerciseView.swift */; };
+		74052A222BC2CD1000052C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74052A212BC2CD1000052C74 /* Assets.xcassets */; };
+		74052A252BC2CD1000052C74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74052A242BC2CD1000052C74 /* Preview Assets.xcassets */; };
+		74052A2C2BC2CDCE00052C74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74052A2B2BC2CDCE00052C74 /* GoogleService-Info.plist */; };
+		74052A2F2BC2D10100052C74 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 74052A2E2BC2D10100052C74 /* FirebaseAnalytics */; };
+		74052A312BC2D10100052C74 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 74052A302BC2D10100052C74 /* FirebaseFirestore */; };
+		74052A332BC2D10100052C74 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 74052A322BC2D10100052C74 /* FirebaseFirestoreSwift */; };
+		74052A352BC2F61D00052C74 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A342BC2F61D00052C74 /* ExerciseModel.swift */; };
+		74052A372BC2F6F000052C74 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A362BC2F6F000052C74 /* ExerciseViewModel.swift */; };
+		74052A392BC2F8B200052C74 /* ExerciseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A382BC2F8B200052C74 /* ExerciseDetail.swift */; };
+		74052A3B2BC5E8EA00052C74 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 74052A3A2BC5E8EA00052C74 /* FirebaseAuth */; };
+		74052A3D2BC5E8EA00052C74 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 74052A3C2BC5E8EA00052C74 /* FirebaseAuthCombine-Community */; };
+		74052A4D2BC6928600052C74 /* UserInputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A4C2BC6928600052C74 /* UserInputFieldView.swift */; };
+		74052A4F2BC6944C00052C74 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A4E2BC6944C00052C74 /* LoginView.swift */; };
+		74052A512BC698EE00052C74 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A502BC698EE00052C74 /* SignUpView.swift */; };
+		74052A532BC69C9800052C74 /* UserHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A522BC69C9800052C74 /* UserHomeView.swift */; };
+		74052A552BC6AE0800052C74 /* NewWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A542BC6AE0800052C74 /* NewWorkoutView.swift */; };
+		74052A572BC6AE2100052C74 /* EditSessionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A562BC6AE2100052C74 /* EditSessionDetailsView.swift */; };
+		74052A592BC6AE8F00052C74 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A582BC6AE8F00052C74 /* UserModel.swift */; };
+		74052A5B2BC6B03000052C74 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74052A5A2BC6B03000052C74 /* AuthenticationViewModel.swift */; };
+		744133742BD7126F0077623F /* ExerciseSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744133732BD7126F0077623F /* ExerciseSessionViewModel.swift */; };
+		744133762BD712970077623F /* ExerciseSessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744133752BD712970077623F /* ExerciseSessionModel.swift */; };
+		7473E1132BD7155F00A52FD7 /* ExerciseSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473E1122BD7155F00A52FD7 /* ExerciseSessionView.swift */; };
+		7473E1172BD71BE900A52FD7 /* ExerciseSessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473E1162BD71BE900A52FD7 /* ExerciseSessionDetailView.swift */; };
+		7473E1192BD7BDAA00A52FD7 /* SessionLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473E1182BD7BDAA00A52FD7 /* SessionLogModel.swift */; };
+		7473E11B2BD9C82700A52FD7 /* UserIntegerInputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473E11A2BD9C82700A52FD7 /* UserIntegerInputFieldView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74052A1A2BC2CD0F00052C74 /* Tylers Training Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tylers Training Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74052A1D2BC2CD0F00052C74 /* Tylers_Training_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tylers_Training_TrackerApp.swift; sourceTree = "<group>"; };
+		74052A1F2BC2CD0F00052C74 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		74052A212BC2CD1000052C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74052A242BC2CD1000052C74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74052A2B2BC2CDCE00052C74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74052A342BC2F61D00052C74 /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		74052A362BC2F6F000052C74 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		74052A382BC2F8B200052C74 /* ExerciseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetail.swift; sourceTree = "<group>"; };
+		74052A4C2BC6928600052C74 /* UserInputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputFieldView.swift; sourceTree = "<group>"; };
+		74052A4E2BC6944C00052C74 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		74052A502BC698EE00052C74 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		74052A522BC69C9800052C74 /* UserHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeView.swift; sourceTree = "<group>"; };
+		74052A542BC6AE0800052C74 /* NewWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutView.swift; sourceTree = "<group>"; };
+		74052A562BC6AE2100052C74 /* EditSessionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSessionDetailsView.swift; sourceTree = "<group>"; };
+		74052A582BC6AE8F00052C74 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		74052A5A2BC6B03000052C74 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		744133732BD7126F0077623F /* ExerciseSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSessionViewModel.swift; sourceTree = "<group>"; };
+		744133752BD712970077623F /* ExerciseSessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSessionModel.swift; sourceTree = "<group>"; };
+		7473E1122BD7155F00A52FD7 /* ExerciseSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSessionView.swift; sourceTree = "<group>"; };
+		7473E1162BD71BE900A52FD7 /* ExerciseSessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSessionDetailView.swift; sourceTree = "<group>"; };
+		7473E1182BD7BDAA00A52FD7 /* SessionLogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLogModel.swift; sourceTree = "<group>"; };
+		7473E11A2BD9C82700A52FD7 /* UserIntegerInputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIntegerInputFieldView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74052A172BC2CD0F00052C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74052A2F2BC2D10100052C74 /* FirebaseAnalytics in Frameworks */,
+				74052A312BC2D10100052C74 /* FirebaseFirestore in Frameworks */,
+				74052A332BC2D10100052C74 /* FirebaseFirestoreSwift in Frameworks */,
+				74052A3B2BC5E8EA00052C74 /* FirebaseAuth in Frameworks */,
+				74052A3D2BC5E8EA00052C74 /* FirebaseAuthCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74052A112BC2CD0F00052C74 = {
+			isa = PBXGroup;
+			children = (
+				74052A1C2BC2CD0F00052C74 /* Tylers Training Tracker */,
+				74052A1B2BC2CD0F00052C74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74052A1B2BC2CD0F00052C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74052A1A2BC2CD0F00052C74 /* Tylers Training Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74052A1C2BC2CD0F00052C74 /* Tylers Training Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				74052A1D2BC2CD0F00052C74 /* Tylers_Training_TrackerApp.swift */,
+				74052A402BC5ECE100052C74 /* Models */,
+				74052A3F2BC5ECCE00052C74 /* ViewModels */,
+				74052A3E2BC5EC5D00052C74 /* Views */,
+				74052A2B2BC2CDCE00052C74 /* GoogleService-Info.plist */,
+				74052A212BC2CD1000052C74 /* Assets.xcassets */,
+				74052A232BC2CD1000052C74 /* Preview Content */,
+			);
+			path = "Tylers Training Tracker";
+			sourceTree = "<group>";
+		};
+		74052A232BC2CD1000052C74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74052A242BC2CD1000052C74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74052A3E2BC5EC5D00052C74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74052A382BC2F8B200052C74 /* ExerciseDetail.swift */,
+				74052A1F2BC2CD0F00052C74 /* ExerciseView.swift */,
+				74052A4C2BC6928600052C74 /* UserInputFieldView.swift */,
+				74052A4E2BC6944C00052C74 /* LoginView.swift */,
+				74052A502BC698EE00052C74 /* SignUpView.swift */,
+				74052A522BC69C9800052C74 /* UserHomeView.swift */,
+				74052A542BC6AE0800052C74 /* NewWorkoutView.swift */,
+				74052A562BC6AE2100052C74 /* EditSessionDetailsView.swift */,
+				7473E1122BD7155F00A52FD7 /* ExerciseSessionView.swift */,
+				7473E1162BD71BE900A52FD7 /* ExerciseSessionDetailView.swift */,
+				7473E11A2BD9C82700A52FD7 /* UserIntegerInputFieldView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74052A3F2BC5ECCE00052C74 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74052A362BC2F6F000052C74 /* ExerciseViewModel.swift */,
+				74052A5A2BC6B03000052C74 /* AuthenticationViewModel.swift */,
+				744133732BD7126F0077623F /* ExerciseSessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74052A402BC5ECE100052C74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74052A342BC2F61D00052C74 /* ExerciseModel.swift */,
+				74052A582BC6AE8F00052C74 /* UserModel.swift */,
+				744133752BD712970077623F /* ExerciseSessionModel.swift */,
+				7473E1182BD7BDAA00A52FD7 /* SessionLogModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74052A192BC2CD0F00052C74 /* Tylers Training Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74052A282BC2CD1000052C74 /* Build configuration list for PBXNativeTarget "Tylers Training Tracker" */;
+			buildPhases = (
+				74052A162BC2CD0F00052C74 /* Sources */,
+				74052A172BC2CD0F00052C74 /* Frameworks */,
+				74052A182BC2CD0F00052C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tylers Training Tracker";
+			packageProductDependencies = (
+				74052A2E2BC2D10100052C74 /* FirebaseAnalytics */,
+				74052A302BC2D10100052C74 /* FirebaseFirestore */,
+				74052A322BC2D10100052C74 /* FirebaseFirestoreSwift */,
+				74052A3A2BC5E8EA00052C74 /* FirebaseAuth */,
+				74052A3C2BC5E8EA00052C74 /* FirebaseAuthCombine-Community */,
+			);
+			productName = "Tylers Training Tracker";
+			productReference = 74052A1A2BC2CD0F00052C74 /* Tylers Training Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74052A122BC2CD0F00052C74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					74052A192BC2CD0F00052C74 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 74052A152BC2CD0F00052C74 /* Build configuration list for PBXProject "Tylers Training Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74052A112BC2CD0F00052C74;
+			packageReferences = (
+				74052A2D2BC2D02000052C74 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 74052A1B2BC2CD0F00052C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74052A192BC2CD0F00052C74 /* Tylers Training Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74052A182BC2CD0F00052C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74052A252BC2CD1000052C74 /* Preview Assets.xcassets in Resources */,
+				74052A222BC2CD1000052C74 /* Assets.xcassets in Resources */,
+				74052A2C2BC2CDCE00052C74 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74052A162BC2CD0F00052C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74052A5B2BC6B03000052C74 /* AuthenticationViewModel.swift in Sources */,
+				74052A202BC2CD0F00052C74 /* ExerciseView.swift in Sources */,
+				744133762BD712970077623F /* ExerciseSessionModel.swift in Sources */,
+				74052A352BC2F61D00052C74 /* ExerciseModel.swift in Sources */,
+				74052A532BC69C9800052C74 /* UserHomeView.swift in Sources */,
+				74052A572BC6AE2100052C74 /* EditSessionDetailsView.swift in Sources */,
+				74052A392BC2F8B200052C74 /* ExerciseDetail.swift in Sources */,
+				74052A512BC698EE00052C74 /* SignUpView.swift in Sources */,
+				7473E11B2BD9C82700A52FD7 /* UserIntegerInputFieldView.swift in Sources */,
+				74052A372BC2F6F000052C74 /* ExerciseViewModel.swift in Sources */,
+				74052A4D2BC6928600052C74 /* UserInputFieldView.swift in Sources */,
+				7473E1172BD71BE900A52FD7 /* ExerciseSessionDetailView.swift in Sources */,
+				74052A1E2BC2CD0F00052C74 /* Tylers_Training_TrackerApp.swift in Sources */,
+				74052A552BC6AE0800052C74 /* NewWorkoutView.swift in Sources */,
+				74052A4F2BC6944C00052C74 /* LoginView.swift in Sources */,
+				74052A592BC6AE8F00052C74 /* UserModel.swift in Sources */,
+				744133742BD7126F0077623F /* ExerciseSessionViewModel.swift in Sources */,
+				7473E1132BD7155F00A52FD7 /* ExerciseSessionView.swift in Sources */,
+				7473E1192BD7BDAA00A52FD7 /* SessionLogModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		74052A262BC2CD1000052C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74052A272BC2CD1000052C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74052A292BC2CD1000052C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tylers Training Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.auburn.onlinecsse.Tylers-Training-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74052A2A2BC2CD1000052C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tylers Training Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.auburn.onlinecsse.Tylers-Training-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74052A152BC2CD0F00052C74 /* Build configuration list for PBXProject "Tylers Training Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74052A262BC2CD1000052C74 /* Debug */,
+				74052A272BC2CD1000052C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74052A282BC2CD1000052C74 /* Build configuration list for PBXNativeTarget "Tylers Training Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74052A292BC2CD1000052C74 /* Debug */,
+				74052A2A2BC2CD1000052C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74052A2D2BC2D02000052C74 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74052A2E2BC2D10100052C74 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74052A2D2BC2D02000052C74 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		74052A302BC2D10100052C74 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74052A2D2BC2D02000052C74 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		74052A322BC2D10100052C74 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74052A2D2BC2D02000052C74 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		74052A3A2BC5E8EA00052C74 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+		74052A3C2BC5E8EA00052C74 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseAuthCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 74052A122BC2CD0F00052C74 /* Project object */;
+}
